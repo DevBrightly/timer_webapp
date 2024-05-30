@@ -1,0 +1,37 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: grey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.timer-display {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.controls button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background-color: #666;
+}
